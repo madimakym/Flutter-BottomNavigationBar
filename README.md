@@ -1,4 +1,4 @@
-# Flutter Tabs
+# Flutter Bottom Navigation Bar
 
 A new Flutter project.
 
