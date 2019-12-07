@@ -12,11 +12,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int _currentIndex = 0;
-  final List<Widget> _children = [
-    First(),
-    Second(),
-    Third()
-  ];
+  final List<Widget> _children = [First(), Second(), Third()];
 
   @override
   Widget build(BuildContext context) {
@@ -27,15 +23,16 @@ class _HomeState extends State<Home> {
         currentIndex: _currentIndex, // new
         items: [
           new BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            title: Text('FirstPage'),
+            icon: Icon(Icons.person),
+            title: Text('General'),
           ),
           new BottomNavigationBarItem(
-            icon: Icon(Icons.mail),
-            title: Text('SecondPage'),
+            icon: Icon(Icons.settings),
+            title: Text('Compétences'),
           ),
           new BottomNavigationBarItem(
-              icon: Icon(Icons.person), title: Text('ThirdPage'))
+              icon: Icon(Icons.folder), 
+              title: Text('Portfolio'))
         ],
       ),
     );

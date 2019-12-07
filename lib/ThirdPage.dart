@@ -5,7 +5,8 @@ class Third extends StatelessWidget{
    Widget build(BuildContext context) {
     return Scaffold(
        appBar: AppBar(
-        title: Text('ThirdPage'),
+        title: Text('Portfolio'),
+        // backgroundColor: Colors.,
       ),
       body: Container(
         child: new Center(
